@@ -1,8 +1,8 @@
 .container { 
+grid-template-columns: auto/auto/auto;
 background-color: hsl(185, 75%, 39%); 
-width:auto;
+width:100%;
 height: 650px;
-float: center;
 
 }
 .attribution { 
@@ -11,10 +11,25 @@ font-size: 11px; text-align: center;
 .attribution a { 
 color: hsl(228, 45%, 44%); 
 }
-
-.innerCard {
+.container > div {
+    text-align: center;
+    display: grid;
+}
+/* .Followers {
+    grid-area: 1 / 2 / span 1/ span 1;
+  } */
+  .Photos {
+    grid-area: 1 / 2 / span 1;
+  }
+.card {
 background-color: white;
-width: "350";height: "140";
-/* box-sizing :border-box */
+/* margin-left: 50%;
+/* margin-top: 50%; */
+margin: auto; 
+width:50%;
+height: 200px;
+border: 1px solid black;
+grid-area: 1 / 2 / span 1;
+
 }
     
