@@ -1,9 +1,21 @@
+* {
+  margin: 0 px;
+  padding: 0px;
+}
+
+.body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+background-color: hsl(185, 75%, 39%); 
+}
+
 .container { 
-grid-template-columns: auto/auto/auto;
 background-color: hsl(185, 75%, 39%); 
 width:100%;
-height: 650px;
-
+position: relative;
 }
 .attribution { 
 font-size: 11px; text-align: center;
@@ -11,25 +23,27 @@ font-size: 11px; text-align: center;
 .attribution a { 
 color: hsl(228, 45%, 44%); 
 }
-.container > div {
-    text-align: center;
-    display: grid;
-}
-/* .Followers {
-    grid-area: 1 / 2 / span 1/ span 1;
-  } */
-  .Photos {
-    grid-area: 1 / 2 / span 1;
+
+.Followers {
+    margin-left:25%;
+    float: left;
   }
+
+.Likes {
+  margin-right: 30%;
+  float: right
+}
+.Photos {
+    align-content: center;
+    float:none;
+  }
+
 .card {
 background-color: white;
-/* margin-left: 50%;
-/* margin-top: 50%; */
 margin: auto; 
-width:50%;
-height: 200px;
+width:25%;
+height: 300px;
 border: 1px solid black;
-grid-area: 1 / 2 / span 1;
-
+border-radius: 5px;
 }
     
