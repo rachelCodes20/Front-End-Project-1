@@ -4,7 +4,6 @@
 }
 
 .body {
-display: flex;
 justify-content: center;
 align-items: center;
 height: 100%;
@@ -25,29 +24,45 @@ color: hsl(228, 45%, 44%);
 }
 
 .Followers {
-    margin-left:25%;
-    float: left;
+    /* float: left; */
+    
   }
 
 .Likes {
-  margin-right: 30%;
-  float: right
+  /* margin-right: 30%; */
+  padding-left: 25%;
+  padding-right: 25%;
 }
 .Photos {
-    align-content: center;
-    float:none;
+  /* float:inherit; */
+  
   }
 
 .card {
 background-color: white;
 margin-bottom: 80px;
-/* margin: auto;  */
 margin-left: 35%;
 margin-top: 15%;
-width: 20%;
+width: 30%;
 height: 350px;
-border: 1px solid hsl(227, 10%, 46%);
+border: 3px solid hsl(227, 73%, 53%);
 border-radius: 10px;
 font-size: 18px;
+}
+
+.card.topHalf {
+  height: 10px;
+  background-color: hsl(185, 75%, 39%);
+
+}
+
+.subHeading {
+  /* flex-direction: row; */
+  padding:5%;
+  /* padding-bottom: 0px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Kumbh;
 }
     
