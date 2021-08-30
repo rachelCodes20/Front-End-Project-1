@@ -1,3 +1,4 @@
+/* @import url("https://fonts.google.com/specimen/Kumbh+Sans");  */
 * {
   margin: 0 px;
   padding: 0px;
@@ -9,6 +10,7 @@ align-items: center;
 height: 100%;
 width: 100%;
 background-color: hsl(185, 75%, 39%); 
+
 }
 
 .container { 
@@ -43,18 +45,19 @@ background-color: white;
 margin-bottom: 80px;
 margin-left: 35%;
 margin-top: 15%;
-width: 30%;
+width: 50%;
 height: 350px;
 border: 3px solid hsl(227, 73%, 53%);
 border-radius: 10px;
 font-size: 18px;
+font-family: "IBM Plex Sans KR";
 }
 
-.card.topHalf {
+/* .card.topHalf {
   height: 10px;
   background-color: hsl(185, 75%, 39%);
 
-}
+} */
 
 .subHeading {
   /* flex-direction: row; */
@@ -63,6 +66,5 @@ font-size: 18px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-family: Kumbh;
 }
     
