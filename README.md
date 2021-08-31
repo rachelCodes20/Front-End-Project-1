@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out my solution to the Frontend Mentor front-end coding challenge, which I am using to strengthen my coding skills.
+Thanks for checking out my solution to Frontend Mentor's front-end coding challenge, which I am using to strengthen my coding skills.
 
 [Frontend Mentor](https://www.frontendmentor.io) 
 
