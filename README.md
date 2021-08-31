@@ -10,11 +10,7 @@ Thanks for checking out my solution to Frontend Mentor's front-end coding challe
 
 ## The challenge
 
-Your challenge is to build out this profile card component and get it looking as close to the design as possible.
-
-## Where to find everything
-
-Your task is to build out the project to the designs inside the `/design` folder. The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+My challenge is to build out this profile card component and get it looking as close to the design as possible. The task is to build out the project to the designs inside the `/design` folder. The designs are in JPG static format using best judgment for styles such as `font-size`, `padding` and `margin`. 
 
 ## Deploying your project
 
@@ -25,7 +21,6 @@ As mentioned above, there are many ways to host your project for free. Our recom
 - [Netlify](https://www.netlify.com/)
 
 You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
-
 
 ## Submitting your solution
 
