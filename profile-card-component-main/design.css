@@ -31,53 +31,50 @@
   color: hsl(228, 45%, 44%); 
 }
 
-.Followers {
-    /* float: left; */
-    
-  }
-
 .Likes {
   /* margin-right: 30%; */
   padding-left: 25%;
   padding-right: 25%;
 }
-.Photos {
-  /* float:inherit; */
-  
-  }
 
 .picture {
-  background: white;
-  background-image: linear-gradient(hsl(229, 23%, 23%), red);
+  border-radius: 50%; 
+  margin-bottom:50px;
+  border: 10px solid white;
+  align-self: center;
+  padding:5px;
+  margin-top: 50px;
+
 }
 
 .card {
-  /* background: white; */
-  background-image: linear-gradient(turquoise, hsl(230, 50%, 53%));
-  /* background-color: white; */
-  position: absolute;
+  background-color: white; 
   margin-bottom: 80px;
   margin-left: 35%;
   margin-top: 15%;
   width: 400px;
-  height: 350px;
-  border: 3px solid hsl(227, 73%, 53%);
+  height: 400px;
   border-radius: 10px;
   font-size: 20px;
   font-family: "IBM Plex Sans KR";
 }
 
-/* .card.topHalf {
-  height: 10px;
-  background-color: hsl(185, 75%, 39%);
-
-} */
+.main-Heading {
+  background-image:linear-gradient(turquoise, hsl(230, 50%, 53%));
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom:50px;
+  height: 100px;
+  text-align: center;
+}
 
 .subHeading {
   display: flex;
   flex-direction: row;
+  margin: 50px;
   justify-content: center;
-  padding: 10%;
+  padding-top: 30%;
   font-size: 18px;
+  /* background-image: linear-gradient(turquoise, hsl(230, 50%, 53%)); */
 }
     
