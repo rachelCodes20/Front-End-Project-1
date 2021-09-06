@@ -46,12 +46,15 @@
   
   }
 
-/* .picture {
-  align-self: center;
-} */
+.picture {
+  background: white;
+  background-image: linear-gradient(hsl(229, 23%, 23%), red);
+}
 
 .card {
-  background-color: white;
+  /* background: white; */
+  background-image: linear-gradient(turquoise, hsl(230, 50%, 53%));
+  /* background-color: white; */
   position: absolute;
   margin-bottom: 80px;
   margin-left: 35%;
