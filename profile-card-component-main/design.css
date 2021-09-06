@@ -6,18 +6,18 @@
 }
 
 .body {
-justify-content: center;
-align-items: center;
-height: 100%;
-width: 100%;
-background-color: hsl(185, 75%, 39%); 
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(185, 75%, 39%); 
 
 }
 
 .container { 
-background-color: hsl(185, 75%, 39%); 
-/* width:100%; */
-position: relative;
+  background-color: hsl(185, 75%, 39%); 
+  /* width:100%; */
+  position: relative;
 }
 
 .light {
@@ -25,10 +25,10 @@ position: relative;
   color: rgba(16, 15, 15, 0.694)
 }
 .attribution { 
-font-size: 11px; text-align: center;
+  font-size: 11px; text-align: center;
 }
 .attribution a { 
-color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%); 
 }
 
 .Followers {
@@ -46,18 +46,22 @@ color: hsl(228, 45%, 44%);
   
   }
 
+/* .picture {
+  align-self: center;
+} */
+
 .card {
-background-color: white;
-position: absolute;
-margin-bottom: 80px;
-margin-left: 35%;
-margin-top: 15%;
-width: 50%;
-height: 350px;
-border: 3px solid hsl(227, 73%, 53%);
-border-radius: 10px;
-font-size: 18px;
-font-family: "IBM Plex Sans KR";
+  background-color: white;
+  position: absolute;
+  margin-bottom: 80px;
+  margin-left: 35%;
+  margin-top: 15%;
+  width: 400px;
+  height: 350px;
+  border: 3px solid hsl(227, 73%, 53%);
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "IBM Plex Sans KR";
 }
 
 /* .card.topHalf {
@@ -71,5 +75,6 @@ font-family: "IBM Plex Sans KR";
   flex-direction: row;
   justify-content: center;
   padding: 10%;
+  font-size: 18px;
 }
     
