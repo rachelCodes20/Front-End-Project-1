@@ -6,8 +6,6 @@
 
 Thanks for checking out my solution to Frontend Mentor's front-end coding challenge, which I am using to strengthen my coding skills.
 
-[Frontend Mentor](https://www.frontendmentor.io) 
-
 ## The challenge
 
 My challenge is to build out this profile card component and get it looking as close to the design as possible. The task is to build out the project using the designs inside the `/design` folder. I am building this out while adding some personal touches of my own. The designs are in JPG static format using best judgment for styles such as `font-size`, `padding` and `margin`.
