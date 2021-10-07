@@ -11,12 +11,10 @@
   height: 100%;
   width: 100%;
   background-color: hsl(185, 75%, 39%); 
-
 }
 
 .container { 
   background-color: hsl(185, 75%, 39%); 
-  /* width:100%; */
   position: relative;
 }
 
@@ -24,27 +22,27 @@
   font-weight: light;
   color: rgba(16, 15, 15, 0.694)
 }
+
 .attribution { 
-  font-size: 11px; text-align: center;
+  font-size: 11px; 
+  text-align: center;
 }
+
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
 
 .Likes {
-  /* margin-right: 30%; */
   padding-left: 25%;
   padding-right: 25%;
 }
 
 .picture {
   border-radius: 50%; 
-  margin-bottom:50px;
-  border: 10px solid white;
+  border: 8px solid white;
   align-self: center;
   padding:5px;
   margin-top: 50px;
-
 }
 
 .card {
@@ -63,7 +61,7 @@
   background-image:linear-gradient(turquoise, hsl(230, 50%, 53%));
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  padding-bottom:50px;
+  padding-bottom: 40px;
   height: 100px;
   text-align: center;
 }
@@ -71,10 +69,10 @@
 .subHeading {
   display: flex;
   flex-direction: row;
-  margin: 50px;
+  margin: 40px;
   justify-content: center;
   padding-top: 30%;
-  font-size: 18px;
+  font-size: 20px;
   /* background-image: linear-gradient(turquoise, hsl(230, 50%, 53%)); */
 }
     
